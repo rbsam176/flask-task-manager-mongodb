@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def helo():
-    return "Hello World ... again!"
+    return "Hello World!"
 
 
 if __name__ == "__main__":
